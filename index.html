@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="collectionBox toppfp">
+        <div class="porfileBox">
+          <div class="headImagebox">
+            <img
+              src="images/image-jeremy.png"
+              alt="profile-picutre"
+              class="porfile"
+            />
+          </div>
+          <div>
+            <p>Report for</p>
+            <h1 id="pfpName">Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="mainTimeBox">
+          <button class="day">Daily</button>
+          <button class="week">Weekly</button>
+          <button class="Month">Monthly</button>
+        </div>
+      </div>
+
+      <div class="collectionBox">
+        <div class="imageBox workbox">
+          <img class="imageIcon" src="/images/icon-work.svg" alt="work-icon" />
+        </div>
+        <div class="Things">
+          <div class="boxheading">
+            <h2>Work</h2>
+            <div class="Dotbox">
+              <img
+                class="MenuDot"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-icon"
+              />
+            </div>
+          </div>
+          <div class="hourBox">
+            <h1 class="workHour">32hrs</h1>
+            <p class="weekBefore">
+              last week - <span class="workBefore">&nbsp; 36hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="collectionBox">
+        <div class="imageBox playBox">
+          <img class="imageIcon" src="/images/icon-play.svg" alt="play-icon" />
+        </div>
+        <div class="Things">
+          <div class="boxheading">
+            <h2>Play</h2>
+            <div class="Dotbox">
+              <img
+                class="MenuDot"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-icon"
+              />
+            </div>
+          </div>
+          <div class="hourBox">
+            <h1 class="playHour">10hrs</h1>
+            <p class="weekBefore">
+              last week - <span class="playBefore">&nbsp; 8hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="collectionBox">
+        <div class="imageBox studyBox">
+          <img class="imageIcon" src="/images/icon-study.svg" alt="book-icon" />
+        </div>
+        <div class="Things">
+          <div class="boxheading">
+            <h2>Study</h2>
+            <div class="Dotbox">
+              <img
+                class="MenuDot"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-icon"
+              />
+            </div>
+          </div>
+          <div class="hourBox">
+            <h1 class="studyHour">4hrs</h1>
+            <p class="weekBefore">
+              last week - <span class="studyBefore">&nbsp; 7hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="collectionBox">
+        <div class="imageBox exerciseBox">
+          <img
+            class="imageIcon"
+            src="/images/icon-exercise.svg"
+            alt="running-icon"
+          />
+        </div>
+        <div class="Things">
+          <div class="boxheading">
+            <h2>Exercise</h2>
+            <div class="Dotbox">
+              <img
+                class="MenuDot"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-icon"
+              />
+            </div>
+          </div>
+          <div class="hourBox">
+            <h1 class="exerciseHour">4hrs</h1>
+            <p class="weekBefore">
+              last week - <span class="exerciseBefore">&nbsp; 5hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="collectionBox">
+        <div class="imageBox socailBox">
+          <img
+            class="imageIcon"
+            src="/images/icon-social.svg"
+            alt="chat-icon"
+          />
+        </div>
+        <div class="Things">
+          <div class="boxheading">
+            <h2>Social</h2>
+            <div class="Dotbox">
+              <img
+                class="MenuDot"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-icon"
+              />
+            </div>
+          </div>
+          <div class="hourBox">
+            <h1 class="socialHour">5hrs</h1>
+            <p class="weekBefore">
+              last week - <span class="socialBefore">&nbsp; 10hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="collectionBox">
+        <div class="imageBox careBox">
+          <img
+            class="imageIcon"
+            src="/images/icon-self-care.svg"
+            alt="Heart-icon"
+          />
+        </div>
+        <div class="Things">
+          <div class="boxheading">
+            <h2>Self Care</h2>
+            <div class="Dotbox">
+              <img
+                class="MenuDot"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-icon"
+              />
+            </div>
+          </div>
+          <div class="hourBox">
+            <h1 class="self-careHour">2hrs</h1>
+            <p class="weekBefore">
+              last week - <span class="self-careBefore">&nbsp; 2hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Osauyi</a>.
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
