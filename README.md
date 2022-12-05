@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/Osauyi/time-tracking-dashboard-main--25.git]
+- Live Site URL: [https://osauyi.github.io/time-tracking-dashboard-main--25/]
 
 ## My process
 
